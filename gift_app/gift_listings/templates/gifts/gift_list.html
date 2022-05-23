@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block content %}
+<h1>{% trans "Seznam Dárků" %}</h1>
+<ol>
+    {% for item in object_list %}
+    <li><a href="{% url 'gift_update' item.pk %}">{{ item.name }}</a></li>
+        <ul>
+            <li><em>pro: {{ item.wished_by }}</em></li>
+            <li>{{ item.description }}</li>
+        </ul>
+    {% endfor %}
+</ol>
+{% endblock %}

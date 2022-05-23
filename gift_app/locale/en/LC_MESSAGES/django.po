@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-23 14:38+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\gift_listings\templates\gifts\gift_list.html:4
+msgid "Seznam Dárků"
+msgstr "List of gifts"
+
+#: .\gift_listings\templates\gifts\gift_reg.html:4
+msgid "Zapsání dárku"
+msgstr "Written gift"
+
+#: .\gift_listings\templates\gifts\gift_reg.html:6
+#: .\gift_listings\templates\gifts\gift_update.html:5
+msgid "registrace"
+msgstr "registration"
+
+#: .\gift_listings\templates\gifts\gift_reg.html:9
+#: .\gift_listings\templates\gifts\gift_update.html:8
+msgid "Uložit"
+msgstr "Save"
+
+#: .\gift_listings\templates\index.html:9
+msgid "Plánovač Dárků"
+msgstr "Gift Planner"
+
+#: .\gift_listings\templates\index.html:16
+msgid "Vítejte"
+msgstr "Welcome"
+
+#: .\gift_listings\templates\index.html:32
+msgid "Pro práci s dárkovou aplikací se prosím přihlaste"
+msgstr "Please log in to work with the gift application"
+
+#: .\gift_listings\templates\index.html:33
+msgid "Pokud chcete pouze zobrazit seznam dárků, prosím klikněte"
+msgstr "If you only want to see the list of gifts, please click here"
+
+#: .\gift_listings\templates\index.html:33
+msgid "zde"
+msgstr "here"
+
+#. Translators: This message is shown after successful gift registration
+#: .\gift_listings\views.py:18
+msgid "Dárek zapsán!"
+msgstr "Gift written!"
